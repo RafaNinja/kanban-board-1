@@ -1,6 +1,7 @@
 import { createContext, useContext, useState } from "react";
 import { KanbanCard } from "../types/kanban";
 
+
 type KanbanContextType = {
     cards: KanbanCard[];
     addCard: (title: string, columnId: string) => void;
